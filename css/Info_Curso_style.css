@@ -1,0 +1,270 @@
+body{
+    font-family: 'Ubuntu Condensed', sans-serif;}
+
+h1{
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+p{
+    font-size: 20px;
+    color: #999999;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.BtnLogin ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.BtnLogin ul li {
+   display: inline-block;
+}
+.BtnLogin ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 10px;
+ }
+
+ .log a{
+    text-decoration: none;
+ }
+
+ .btn-outline-success{  
+color:black;
+border-style: none;
+ }
+
+
+.topmargin_xs{margin-top: 15px;}
+.topmargin_sm{margin-top: 30px;}
+.topmargin_lg{margin-top: 60px;}
+
+.btn_CrearCuenta{
+font-size: 14px;
+padding:15px 26px ;
+min-width: 160px;
+border-radius: 2px;
+display: inline-block;
+}
+
+.btn_light{
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border: 2px solid #ffffff;
+}
+
+.navbar{
+background-color:#ffffff;
+box-shadow: 0 2px 4px rgba(0, 0, 0, .05);
+min-height: 100px;
+}
+
+.Cursosdropdown{
+    color: #1a1a1a;
+}
+.Cursosdropdown:hover{
+    color: #1a1a1a;
+}
+
+.botones-loguearse{
+    color: #1a1a1a;
+}
+
+.logo{
+    min-width: 160px;
+    max-width: 180px;
+}
+
+.BtnLogin a p {
+    color:black;
+    
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+#contendor{
+    width: 160px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #1a1a1a;
+}
+
+#contenido{
+    width: 700px;
+    height: 950px;
+    float: left;
+    background: white;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+#contenido h2{
+    margin-top: 40px;
+    font-size: 60px;
+    text-align: center;
+}
+
+#contenido .Numerocursos{
+color: black;
+text-align: center;
+background: rgb(155, 81, 151);
+border-radius: 20px;
+}
+
+#contenido .Promedio{
+text-align: right;
+color: black;
+margin-right: 200px;
+max-width: 200px;
+}
+
+#contenido #Descripcion{
+color: black;
+width: 680px;
+margin-left: 10px;
+text-align: justify;
+font-size: 20px;
+}
+
+#contenido .img_curso_cuadro{
+    height: 350px;
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+
+#contenido .titulo_descripcion{
+text-align: center;
+color: black;
+font-size: 25px;
+
+}
+
+aside{
+    width:  350px;
+    height: 300px;
+    background: rgba(196, 130, 226, 0.692);
+    margin-top: 10px;
+    margin-right: 200px;
+    float: right;
+    border-radius: 30px;
+    margin-bottom: 90px;
+
+}
+
+aside h2{
+    margin-top: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+
+aside #categoria{
+    margin-top: 80px;
+    text-align: center;
+    color: black;
+
+}
+
+aside #Boton_costo{
+margin-left: 10%;
+width: 300px;
+font-size: 40px;
+background-color: rgb(66, 189, 211);
+border-color: white;
+border-radius: 20px;
+color: white;
+}
+
+main{
+    margin-top: 130px;
+    background: white;
+    clear: both;
+}
+
+main .Comentarios{
+    margin-top: 200px;
+}
+
+.Comentarios .titulo_coment{
+    font-size: 30px;
+    text-align: left;
+    margin: 0 auto;
+    width: 900px;
+    color: black;
+    
+    }
+
+.container_responder{
+    font-size: 20px;
+    background-color: #eee;
+    border: 1px solid #DDD;
+    width: 900px;
+    padding: 10px;
+    color: black;
+    border-radius: 15px;
+    margin: 0 auto; 
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container_responder .respu_coment{
+    margin-top: 1rem;
+    padding: 10px 500px 50px 100px;
+    background: #bebade no-repeat 100px center;
+    outline: none;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 3px solid #986dc9;
+
+}
+
+
+.container_responder .botBad{
+    width: 30px;
+        height: 30px;
+        font-size: 17px;
+        background-color:rgb(205, 135, 222);
+        border-radius: 20px;
+    }
+
+.container_responder .botNice{
+        width: 30px;
+        height: 30px;
+        font-size: 17px;
+        background-color: rgb(205, 135, 222);
+        border-radius: 20px;
+     
+}
+
+ 
+.container_responder .botRes{
+   width: 100px;
+   margin-left: 90%;
+   font-size: 15px;
+   background-color: rgb(205, 135, 222);
+   border-radius: 20px;
+
+   }
