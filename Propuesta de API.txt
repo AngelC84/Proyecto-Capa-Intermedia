@@ -1,0 +1,10 @@
+Propuesta de API
+
+Para la API de nuestro sitio web: crearemos una que le sugiera cursos economicos para empezar a usar el sitio.
+
+Esta API desplegara cursos en linea basado en cursos recien tomados usando los temas. El orden de estos cursos se mostraran de forma ascendente usando el precio de dichos cursos.
+
+Angel Corona Esquivel - 1851121 - GPO003
+Martin Oswaldo Villanueva Garza - 1497828 - GPO003
+
+*Los ejemplos de certificdos estan con las imagenes que se usaron en la carpeta de Elementos*
