@@ -64,13 +64,15 @@ function validarFormulario(){
         resultado = false;
 
     }else{
-        var lenght = /^.{4,12}$/;
+        var lenght = /^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{4,8}$/;
         if(!lenght.test(pass)){
             cambiarColor("pass");
-            mostrarAlertapass ("Por favor ingrese una contraseña valida");
+            mostrarAlertapass ("Ingrese una contraseña maximo 8 caracteres, 1 Mayuscula, 1 minuscula y un digito");
             resultado = false;
         }
     }
+
+    
     return resultado;
 
 }
@@ -130,10 +132,10 @@ $('#Info_Escuela').submit(function(e){
             resultado = false;
     
         }else{
-            var lenght = /^.{4,12}$/;
+            var lenght = /^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{4,8}$/;
             if(!lenght.test(pass)){
                 cambiarColor("pass");
-                mostrarAlertaPassSchool ("Por favor ingrese una contraseña valida");
+                mostrarAlertaPassSchool ("Ingrese una contraseña maximo 8 caracteres, 1 Mayuscula, 1 minuscula y un digito");
                 resultado = false;
             }
         }
@@ -260,10 +262,10 @@ $('#Perfil_Estudiante').submit(function(e){
             resultado = false;
     
         }else{
-            var lenght = /^.{4,12}$/;
+            var lenght = /^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{4,8}$/;
             if(!lenght.test(pass)){
                 cambiarColor("pass");
-                mostrarAlertaPassEstud ("Por favor ingrese una contraseña valida");
+                mostrarAlertaPassEstud ("Ingrese una contraseña maximo 8 caracteres, 1 Mayuscula, 1 minuscula y un digito");
                 resultado = false;
             }
         }

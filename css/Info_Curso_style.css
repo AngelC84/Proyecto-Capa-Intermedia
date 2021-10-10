@@ -1,5 +1,7 @@
 body{
-    font-family: 'Ubuntu Condensed', sans-serif;}
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+    
 
 h1{
     font-size: 75px;
@@ -101,7 +103,7 @@ a{
 }
 
 #contendor{
-    width: 160px;
+    width: 90%;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -109,12 +111,12 @@ a{
 }
 
 #contenido{
-    width: 700px;
+    width: 50%;
     height: 950px;
     float: left;
     background: white;
     margin-top: 10px;
-    margin-left: 200px;
+    margin-left: 10%;
 }
 
 #contenido h2{
@@ -139,8 +141,7 @@ max-width: 200px;
 
 #contenido #Descripcion{
 color: black;
-width: 680px;
-margin-left: 10px;
+width: 100%;
 text-align: justify;
 font-size: 20px;
 }
@@ -162,15 +163,13 @@ font-size: 25px;
 }
 
 aside{
-    width:  350px;
+    width:  30%;
     height: 300px;
     background: rgba(196, 130, 226, 0.692);
     margin-top: 10px;
-    margin-right: 200px;
-    float: right;
     border-radius: 30px;
-    margin-bottom: 90px;
-
+    float: right;
+    margin-right: 5%;
 }
 
 aside h2{
@@ -187,8 +186,8 @@ aside #categoria{
 }
 
 aside #Boton_costo{
-margin-left: 10%;
-width: 300px;
+    margin-left: 25%;
+    width: 50%;
 font-size: 40px;
 background-color: rgb(66, 189, 211);
 border-color: white;
@@ -197,13 +196,13 @@ color: white;
 }
 
 main{
-    margin-top: 130px;
+    margin-top: 30%;
     background: white;
     clear: both;
 }
 
 main .Comentarios{
-    margin-top: 200px;
+    margin-top: 60%;
 }
 
 .Comentarios .titulo_coment{
@@ -219,7 +218,7 @@ main .Comentarios{
     font-size: 20px;
     background-color: #eee;
     border: 1px solid #DDD;
-    width: 900px;
+    width: 80%;
     padding: 10px;
     color: black;
     border-radius: 15px;
@@ -232,7 +231,9 @@ main .Comentarios{
 
 .container_responder .respu_coment{
     margin-top: 1rem;
-    padding: 10px 500px 50px 100px;
+    padding: 10px;
+    width: 90%;
+    min-height:100px;
     background: #bebade no-repeat 100px center;
     outline: none;
     font-size: 20px;
@@ -243,7 +244,7 @@ main .Comentarios{
 
 
 .container_responder .botBad{
-    width: 30px;
+    width: 5%;
         height: 30px;
         font-size: 17px;
         background-color:rgb(205, 135, 222);
@@ -251,7 +252,7 @@ main .Comentarios{
     }
 
 .container_responder .botNice{
-        width: 30px;
+        width: 5%;
         height: 30px;
         font-size: 17px;
         background-color: rgb(205, 135, 222);
@@ -267,4 +268,443 @@ main .Comentarios{
    background-color: rgb(205, 135, 222);
    border-radius: 20px;
 
+}
+
+
+@media screen and (max-width: 1090px){
+    body{
+        width: 100%;
+    }
+
+    aside #Boton_costo{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .Comentarios .titulo_coment{
+        margin-top: 100%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 998px){
+    body{
+        width: min-content;
+    }
+
+    .Comentarios {
+        margin-top: 120%;
+    }
+
+    .Comentarios .titulo_coment{
+        margin-top: 1%;
+    }
+
+}
+
+@media screen and (max-width: 959px){
+    body{
+        width: min-content;
+    }
+
+    .Comentarios {
+        margin-top: 120%;
+    }
+
+    .Comentarios .titulo_coment{
+        margin-top: 1%;
+    }
+
+}
+
+
+@media screen and (max-width: 905px){
+    body{
+        width: min-content;
+    }
+
+    .Comentarios {
+        margin-top: 130%;
+    }
+
+    .Comentarios .titulo_coment{
+        margin-top: 1%;
+    }
+
+    
+    aside #Boton_costo{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 871px){
+    body{
+        width: min-content;
+    }
+
+    .Comentarios {
+        margin-top: 140%;
+    }
+
+    .Comentarios .titulo_coment{
+        margin-top: 1%;
+    }
+
+    aside #Boton_costo{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+}
+
+@media screen and (max-width: 851px){
+    body{
+        width: min-content;
+    }
+
+    .Comentarios {
+        margin-top: 140%;
+    }
+
+    .Comentarios .titulo_coment{
+        margin-top: 1%;
+    }
+
+    aside #Boton_costo{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+}
+
+
+@media screen and (max-width: 817px){
+    body{
+        width: min-content;
+    }
+
+    .Comentarios {
+        margin-top: 155%;
+    }
+
+    .Comentarios .titulo_coment{
+        margin-top: 1%;
+    }
+
+    }
+
+
+@media screen and (max-width: 810px){
+    body{
+        width: min-content;
+    }
+
+    .Comentarios {
+        margin-top: 155%;
+    }
+
+    .Comentarios .titulo_coment{
+        margin-top: 1%;
+    }
+
+    }
+
+@media screen and (max-width: 802px){
+    body{
+        width: min-content;
+    }
+
+    .Comentarios {
+        margin-top: 155%;
+    }
+
+    .Comentarios .titulo_coment{
+        margin-top: 1%;
+    }
+
+    aside{
+margin-left: 5%;
+    }
+
+    aside #Boton_costo{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    }
+
+    
+@media screen and (max-width: 784px){
+    body{
+        width: min-content;
+    }
+
+    
+#contenido .img_curso_cuadro{
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: 0%;
+}
+
+
+    aside{
+    margin-left: 1%;
+    }
+
+    aside #Boton_costo{
+        width: 80%;
+        margin-left: 10%;
+        font-size: 100%;
+    }
+
+    }
+
+    
+@media screen and (max-width: 764px){
+    body{
+        width: min-content;
+    }
+
+    .Comentarios {
+        margin-top: 156%;
+    }
+
+    .Comentarios .titulo_coment{
+        margin-top: 1%;
+    }
+ }
+
+  
+@media screen and (max-width: 758px){
+    body{
+        width: min-content;
+    }
+
+    .Comentarios {
+        margin-top: 165%;
+    }
+
+    .Comentarios .titulo_coment{
+        margin-top: 1%;
+    }
+ }
+    
+
+ @media screen and (max-width: 720px){
+    body{
+        width: min-content;
+    }
+
+    .Comentarios {
+        margin-top: 180%;
+    }
+
+    .Comentarios .titulo_coment{
+        margin-top: 1%;
+    }
+ }
+ 
+  
+@media screen and (max-width: 694px){
+    body{
+        width: min-content;
+    }
+
+    .Comentarios {
+        margin-top: 195%;
+    }
+
+    .Comentarios .titulo_coment{
+        margin-top: 1%;
+    }
+
+    
+    #contenido #Descripcion{
+        font-size: 15px;
+    }
+ }
+
+ 
+@media screen and (max-width: 626px){
+
+    body{
+        width: min-content;
+    }
+
+    .Comentarios {
+        margin-top: 195%;
+    }
+
+    .Comentarios .titulo_coment{
+        margin-top: 1%;
+    }
+
+   
+    #contenido #Descripcion{
+        font-size: 15px;
+    }
+
+    aside{
+        margin-left: 1%;
+        font-size: 10px;
+        }
+    
+        aside #Boton_costo{
+            font-size: 50px;
+            width: 80%;
+            margin-left: 10%;
+            font-size: 100%;
+        }
+ }
+    
+
+ @media screen and (max-width: 564px){
+
+    body{
+        width: min-content;
+    }
+
+    main .Comentarios{
+        height: 50%;
+        width: 80%;
+
+    }
+
+    .Comentarios {
+        margin-top: 195%;
+    }
+
+    .Comentarios .titulo_coment{
+        margin-top: 1%;
+    }
+
+   
+    #contenido #Descripcion{
+        font-size: 15px;
+    }
+
+    aside{
+        margin-left: 1%;
+        font-size: 10px;
+        }
+    
+        aside #Boton_costo{
+            font-size: 50px;
+            width: 80%;
+            margin-left: 10%;
+            font-size: 100%;
+        }
+ }
+    
+ @media screen and (max-width: 550px){
+    body{
+        width: min-content;
+    }
+
+    main .Comentarios{
+        height: 50%;
+        width: 80%;
+
+    }
+    
+    .container_responder{
+        width: 90%;
+        height: 50%;
+    }
+
+    .Comentarios {
+        margin-top: 50%;
+    }
+
+    .Comentarios .titulo_coment{
+        margin-top: 1%;
+    }
+
+   
+    #contenido #Descripcion{
+        font-size: 10px;
+    }
+
+ }
+    
+ 
+ @media screen and (max-width: 508px){
+    body{
+        width: min-content;
+    }
+
+    #contenido .Nombre_de_curso{
+        font-size: 20px;
+    }
+
+    main .Comentarios{
+        height: 50%;
+        width: 80%;
+
+    }
+    
+    .container_responder{
+        width: 90%;
+        height: 50%;
+    }
+
+    .Comentarios {
+        margin-top: 50%;
+    }
+
+    .Comentarios .titulo_coment{
+        margin-top: 1%;
+    }
+
+   
+    #contenido #Descripcion{
+        font-size: 10px;
+    }
+
+ }
+    
+ 
+ @media screen and (max-width: 464px){
+    body{
+        width: min-content;
+    }
+
+   aside{
+       font-size: 7px;
    }
+
+   section #contenido{
+     width: 100%;
+    }
+   
+
+   }
+    
+   
+ 
+ @media screen and (max-width: 361px){
+
+    body{
+        width: min-content;
+    }
+
+    aside{
+        font-size: 7px;
+    }
+ 
+    section #contenido{
+      width: 100%;
+     }
+    
+ 
+    }
+     
+
+
+
+

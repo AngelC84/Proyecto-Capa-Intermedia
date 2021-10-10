@@ -220,3 +220,347 @@ width:  300px;
 }
 
 
+@media screen and (max-width: 1090px){
+
+    #image_princip{
+        max-width: 100%;
+        max-height: 100%;
+        }
+
+
+        .caja_cursos{
+            height: 380px;
+            margin-top: 50px;
+        }
+        
+    }
+
+    @media screen and (max-width: 755px){
+
+        #image_princip{
+            max-width: 100%;
+            min-height: 100%;
+            
+            }
+            .caja_cursos{
+                height: 380px;
+                margin-top: 50px;
+            }
+    
+        #image_princip{
+        font-size: 10px;
+            }
+
+        #image_princip h1{
+         font-size: 55px;
+         }
+
+         #image_princip .container{
+
+            padding-bottom: 10%;
+            }
+    
+    
+        }
+    
+        
+        @media screen and (max-width: 412px){
+
+            #image_princip{
+                max-width: 100%;
+                min-height: 100%;
+                
+                }
+                .caja_cursos{
+                    height: 380px;
+                    margin-top: 50px;
+                }
+                #image_princip .btn{
+                    font-size: 8px;
+                    margin-bottom: 10%;
+                            }
+                            
+            #image_princip p{
+            font-size: 15px;
+                }
+    
+            #image_princip h1{
+             font-size: 35px;
+             }
+    
+             #image_princip .container{
+                padding-bottom: 0%;
+                margin-top: 0px;
+                margin-bottom: -90px;
+                
+                }
+        
+        
+            }
+        
+    @media screen and (max-width: 395px){
+
+        #image_princip{
+            max-width: 100%;
+            min-height: 100%;
+            
+            }
+            .caja_cursos{
+                height: 380px;
+                margin-top: 50px;
+            }
+            #image_princip .btn{
+                font-size: 8px;
+                margin-bottom: 10%;
+                        }
+                        
+        #image_princip p{
+        font-size: 15px;
+            }
+
+        #image_princip h1{
+         font-size: 35px;
+         }
+
+         #image_princip .container{
+            padding-bottom: 0%;
+            margin-top: 0px;
+            margin-bottom: -90px;
+            
+            }
+    
+    
+        }
+
+
+
+          
+    @media screen and (max-width: 295px){
+
+        #image_princip{
+            max-width: 100%;
+            min-height: 100%;
+            
+            }
+            .caja_cursos{
+                height: 380px;
+                width: 40%;
+                margin-top: 50px;
+            }
+    
+        #image_princip p{
+        font-size: 10px;
+            }
+
+            #image_princip .btn{
+                font-size: 8px;
+                margin-bottom: 10%;
+                        }
+                        
+
+        #image_princip h1{
+         font-size: 25px;
+         }
+
+         #image_princip .container{
+            padding-bottom: 0%;
+            margin-top: 0px;
+            margin-bottom: -90px;
+            
+            }
+    
+    .curso_detalles h2{
+font-size: 15px;
+    }
+    .curso_detalles p{
+
+font-size: 12px;
+    }
+        }
+
+        
+          
+    @media screen and (max-width: 208px){
+
+        #image_princip{
+            max-width: 100%;
+            min-height: 100%;
+            
+            }
+            .caja_cursos{
+                height: 380px;
+                width: 25%;
+                margin-top: 50px;
+                font-size: 10px;
+            }
+    
+            .detalles_curso h2{
+font-size: 15px;
+            }
+
+            .detalles_curso p{
+font-size: 15px;
+            }
+ #image_princip .btn{
+font-size: 8px;
+margin-bottom: 10%;
+        }
+
+        #image_princip p{
+        font-size: 8px;
+            }
+
+        #image_princip h1{
+         font-size: 15px;
+         }
+
+         #image_princip .container{
+            padding-bottom: 0%;
+            margin-top: 0px;
+            margin-bottom: -90px;
+            
+            }
+    
+    .curso_detalles h2{
+font-size: 15px;
+    }
+    .curso_detalles p{
+
+font-size: 12px;
+    }
+        }
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+@media screen and (max-width: 360px){
+
+.caja_cursos{
+    height: 380px;
+    margin-top: 50px;
+}
+
+
+
+}
+   
+@media screen and (max-width: 320px){
+
+    .caja_cursos{
+        height: 320px;
+        width: 320px;
+        margin-top: 80px;
+    }
+    
+}
+
+@media screen and (max-width: 375px){
+    .caja_cursos{
+        height: 310px;
+        width: 30px;
+        margin-top: 100px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1024px){
+    .contenedor_recuadros{
+        height: 35vh;
+    }
+
+    #image_princip{
+        background-size: cover;
+    }
+}
+
+
+@media screen and (max-width: 540px){
+    .caja_cursos{
+        height: 250px;
+        width: 390px;
+        margin-top: 120px;
+    }
+
+.img_curso_cuadro{
+    height: 350px;
+    height: 150px;
+    width:389px;
+    }
+    
+    .detalles_curso{
+    display:inline;
+    flex-direction: column;
+    align-items: center;
+    width:  300px;
+    margin-bottom: 90px;
+    }
+
+  
+}
+
+
+@media screen and (max-width: 768px){
+    .caja_cursos{
+        height: 250px;
+        width: 390px;
+        margin-top: 120px;
+    }
+
+.img_curso_cuadro{
+    height: 350px;
+    height: 150px;
+    width:389px;
+    }
+    
+    .detalles_curso{
+    display:inline;
+    flex-direction: column;
+    align-items: center;
+    width:  300px;
+    margin-bottom: 90px;
+    }
+
+  
+}
+
+
+@media screen and (max-height: 600px){
+   
+    .caja_cursos{
+        height: 250px;
+        width: 390px;
+        margin-top: 140px;
+    }
+
+.img_curso_cuadro{
+    height: 350px;
+    height: 150px;
+    width:389px;
+    }
+    
+    .detalles_curso{
+    display:inline;
+    flex-direction: column;
+    align-items: center;
+    width:  300px;
+    margin-bottom: 90px;
+    }
+     
+    
+    #image_princip{
+        background-size: cover;
+    }
+
+}
+
+*/

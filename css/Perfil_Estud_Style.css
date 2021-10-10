@@ -102,7 +102,7 @@ a{
  
 .form-register{
     width: 95%;
-    max-width: 1200px;
+    max-width: 80%;
     margin: auto;
     background: #702088bd;
     border-radius: 90px;
@@ -110,8 +110,8 @@ a{
 
 .perfil-usuario .avatar-perfil{
     display: block;
-    width: 230px;
-    height: 230px;
+    width: 19%;
+    height: 20%;
     background-color: black;
    margin-top: 3%;
    margin-left: 20%;
@@ -158,7 +158,7 @@ a{
 
 .perfil-usuario .opciones-perfil button{
     border: 0;
-    padding: 8px 20px;
+    padding: 0% 3%;
     border-radius: 8px;
     background-color: rgb(90, 90, 90);
     color: white;
@@ -212,7 +212,7 @@ select.combo{
 
 .lista-perfil .Nombre-usuario{
     margin-left: 35px;
-    width: 300px;
+    width: 30%;
     background: #e1d8e7be;
     outline: none;
     font-size: 15px;
@@ -317,9 +317,737 @@ width:  300px;
 
 
 
+@media screen and (max-width: 1036px){
+
+    
+    .caja_cursos{
+
+        height: 380px;
+        margin-top: 50px;
+    }
+
+}
+
+
+@media screen and (max-width: 994px){
+
+    
+    .lista-perfil input{
+    width: 20%;
+    font-size: 15px;
+    
+    }
+
+    .caja_cursos{
+
+        height: 380px;
+        margin-top: 50px;
+    }
+
+}
+  
+
+@media screen and (max-width: 903px){
+
+    
+    .lista-perfil input{
+    width: 20%;
+    font-size: 15px;
+    
+    }
+
+    .caja_cursos{
+
+        height: 380px;
+        margin-top: 50px;
+    }
+
+    .Datos-perfil li{
+       font-size: 15px;
+    }
+
+    
+    .perfil-usuario .avatar-perfil{
+        width: 23%;
+        margin-left: 10%;
+    }
+
+}
+
+
+@media screen and (max-width: 844px){
+
+    
+    .lista-perfil input{
+    width: 20%;
+    font-size: 15px;
+    
+    }
+
+    .caja_cursos{
+        height: 380px;
+        margin-top: 50px;
+    }
+
+    .Datos-perfil li{
+       font-size: 12px;
+    }
+
+    
+    .perfil-usuario .avatar-perfil{
+        width: 23%;
+        margin-left: 10%;
+    }
+
+    .Datos-perfil #fecha_naciemiento{
+        width: 20%;
+        font-size: 10px;
+    }
+
+    .Datos-perfil #NombreUsuario{
+        width: 60%;
+        margin-left: 0%;
+    }
+    
+
+}
+  
+
+
+
+@media screen and (max-width: 760px){
+
+    
+    .lista-perfil input{
+    width: 20%;
+    font-size: 15px;
+    
+    }
+
+    .caja_cursos{
+        height: 380px;
+        margin-top: 50px;
+    }
+
+    .Datos-perfil li{
+       font-size: 12px;
+    }
+
+    
+    .perfil-usuario .avatar-perfil{
+        width: 23%;
+        margin-left: 10%;
+    }
+
+    .Datos-perfil #fecha_naciemiento{
+        width: 20%;
+        font-size: 8px;
+    }
+
+    .Datos-perfil #CorreoUsuario{
+        width: 20%;
+        font-size: 10px;
+    }
+    .Datos-perfil #ContraUsuario{
+        width: 20%;
+        font-size: 10px;
+    }
+
+    .Datos-perfil #NombreUsuario{
+        width: 60%;
+        margin-left: 0%;
+    }
+
+    .Datos-perfil #categ{
+        width: 20%;
+        font-size: 10px;
+        margin-left: 0%;
+    }
+    .Datos-perfil #Est{
+        width: 20%;
+        font-size: 10px;
+        margin-left: 0%;
+    } 
+    .perfil-usuario .lista-perfil li{
+        margin-left: 0%;
+    }
+
+    
+
+}
+  
+
+
+@media screen and (max-width: 646px){
+
+    
+    .lista-perfil input{
+    width: 20%;
+    font-size: 15px;
+    
+    }
+
+    .caja_cursos{
+        height: 380px;
+        margin-top: 50px;
+    }
+
+    .Datos-perfil li{
+       font-size: 12px;
+    }
+
+    
+    .perfil-usuario .avatar-perfil{
+        width: 23%;
+        margin-left: 10%;
+        border: 0px;
+        box-shadow:  0 0 0px 0px rgb(255, 255, 255);
+
+    }
+
+    
+    .perfil-usuario .Titulo-usuario{
+        font-size: 30px;
+    }
+
+    .Datos-perfil #fecha_naciemiento{
+        width: 20%;
+        font-size: 8px;
+    }
+
+    .Datos-perfil #CorreoUsuario{
+        width: 20%;
+        font-size: 10px;
+    }
+    .Datos-perfil #ContraUsuario{
+        width: 20%;
+        font-size: 10px;
+    }
+
+    .Datos-perfil #NombreUsuario{
+        width: 60%;
+        margin-left: 0%;
+    }
+
+    .Datos-perfil #categ{
+        width: 20%;
+        font-size: 10px;
+        margin-left: 0%;
+    }
+    .Datos-perfil #Est{
+        width: 20%;
+        font-size: 9px;
+        margin-left: 0%;
+    } 
+    .perfil-usuario .lista-perfil li{
+        margin-left: 0%;
+    }
+
+    
+
+}
+
+
+
+@media screen and (max-width: 564px){
+
+    
+    .lista-perfil input{
+    width: 20%;
+    font-size: 15px;
+    
+    }
+
+    .caja_cursos{
+        height: 380px;
+        margin-top: 50px;
+    }
+
+    .Datos-perfil li{
+       font-size: 12px;
+    }
+
+    
+    .perfil-usuario .avatar-perfil{
+        width: 23%;
+        margin-left: 10%;
+        border: 0px;
+        box-shadow:  0 0 0px 0px rgb(255, 255, 255);
+
+    }
+
+    
+    .perfil-usuario .Titulo-usuario{
+        font-size: 30px;
+    }
+
+    .Datos-perfil #fecha_naciemiento{
+        width: 20%;
+        font-size: 7px;
+    }
+
+    .Datos-perfil #CorreoUsuario{
+        width: 18%;
+        font-size: 8px;
+    }
+    .Datos-perfil #ContraUsuario{
+        width: 18%;
+        font-size: 8px;
+    }
+
+    .Datos-perfil #NombreUsuario{
+        width: 60%;
+        margin-left: 0%;
+    }
+
+    .Datos-perfil #categ{
+        width: 18%;
+        font-size: 8px;
+        margin-left: 0%;
+    }
+    .Datos-perfil #Est{
+        width: 20%;
+        font-size: 9px;
+        margin-left: 0%;
+    } 
+    .perfil-usuario .lista-perfil li{
+        margin-left: 0%;
+        font-size: 10px;
+    }
+
+    
+    .perfil-usuario .opciones-perfil button{
+        padding: 2px 5px;
+    }
+
+    .opciones-perfil button{
+font-size: 10px;
+    }
+    
+
+}
+
+
+
+@media screen and (max-width: 442px){
+
+    
+    .lista-perfil input{
+    width: 20%;
+    font-size: 15px;
+    
+    }
+
+    .caja_cursos{
+        height: 380px;
+        margin-top: 50px;
+    }
+
+    .Datos-perfil li{
+       font-size: 12px;
+    }
+
+    
+    .perfil-usuario .avatar-perfil{
+        width: 23%;
+        margin-left: 10%;
+        border: 0px;
+        box-shadow:  0 0 0px 0px rgb(255, 255, 255);
+
+    }
+
+    
+    .perfil-usuario .Titulo-usuario{
+        font-size: 25px;
+    }
+
+    .Datos-perfil #fecha_naciemiento{
+        width: 40%;
+        height: 10%;
+        font-size: 7px;
+    }
+
+    .Datos-perfil #CorreoUsuario{
+        width: 20%;
+        height: 10%;
+        font-size: 8px;
+    }
+    .Datos-perfil #ContraUsuario{
+        width: 25%;
+        height: 10%;
+        font-size: 7px;
+    }
+
+    .Datos-perfil #NombreUsuario{
+        width: 50%;
+        height: 10%;
+        font-size: 8px;
+        margin-left: 0%;
+    }
+
+    .Datos-perfil #categ{
+        width: 25%;
+        height: 10%;
+        font-size: 6px;
+        margin-left: 0%;
+    }
+    .Datos-perfil #Est{
+        width: 25%;
+        font-size: 7px;
+        margin-left: 0%;
+    } 
+    .perfil-usuario .lista-perfil li{
+        margin-left: 0%;
+        font-size: 8px;
+    }
+
+    
+    .perfil-usuario .opciones-perfil button{
+        padding: 2px 5px;
+    }
+
+    .opciones-perfil button{
+font-size: 10px;
+    }
+    
+
+}
+
+
+
+@media screen and (max-width: 382px){
+
+
+    .lista-perfil input{
+    width: 20%;
+    font-size: 15px;
+    
+    }
+
+    .caja_cursos{
+        width: 335px;
+        height: 380px;
+        margin-top: 50px;
+    }
+
+    .Datos-perfil li{
+       font-size: 12px;
+    }
+
+    
+    .perfil-usuario .avatar-perfil{
+        width: 20%;
+        margin-left: 15%;
+        box-shadow:  0 0 0px 0px rgb(255, 255, 255);
+    }
+
+    .perfil-usuario .Titulo-usuario{
+        font-size: 23px;
+    }
+
+    .Datos-perfil #fecha_naciemiento{
+        width: 45%;
+        height: 10%;
+        font-size: 7px;
+    }
+
+    .Datos-perfil #CorreoUsuario{
+        width: 20%;
+        height: 10%;
+        font-size: 8px;
+    }
+    .Datos-perfil #ContraUsuario{
+        width: 25%;
+        height: 10%;
+        font-size: 7px;
+    }
+
+    .Datos-perfil #NombreUsuario{
+        width: 50%;
+        height: 10%;
+        font-size: 8px;
+        margin-left: 0%;
+    }
+
+    .Datos-perfil #categ{
+        width: 30%;
+        height: 10%;
+        font-size: 6px;
+        margin-left: 0%;
+    }
+    .Datos-perfil #Est{
+        width: 28%;
+        font-size: 7px;
+        margin-left: 0%;
+    } 
+    .perfil-usuario .lista-perfil li{
+        margin-left: 0%;
+        font-size: 8px;
+    }
+
+    
+    .perfil-usuario .opciones-perfil button{
+        padding: 2px 5px;
+    }
+
+    .opciones-perfil button{
+font-size: 10px;
+    }
+    
+
+}
+
+
+@media screen and (max-width: 350px){
+
+
+    .lista-perfil input{
+    width: 20%;
+    font-size: 15px;
+    
+    }
+
+    .caja_cursos{
+        width: 335px;
+        height: 380px;
+        margin-top: 50px;
+    }
+
+
+    .detalles_curso p{
+        font-size: 13px;
+    }
+    
+    .detalles_curso h2{
+        font-size: 18px;
+    }
+   
+
+    .Datos-perfil li{
+       font-size: 12px;
+    }
+
+    
+    .perfil-usuario .avatar-perfil{
+        width: 20%;
+        margin-left: 15%;
+        box-shadow:  0 0 0px 0px rgb(255, 255, 255);
+    }
+
+    .perfil-usuario .Titulo-usuario{
+        font-size: 20px;
+    }
+
+    .Datos-perfil #fecha_naciemiento{
+        width: 40%;
+        height: 10%;
+        font-size: 5px;
+    }
+
+    .Datos-perfil #CorreoUsuario{
+        width: 20%;
+        height: 10%;
+        font-size: 8px;
+    }
+    .Datos-perfil #ContraUsuario{
+        width: 25%;
+        height: 10%;
+        font-size: 7px;
+    }
+
+    .Datos-perfil #NombreUsuario{
+        width: 50%;
+        height: 10%;
+        font-size: 8px;
+        margin-left: 0%;
+    }
+
+    .Datos-perfil #categ{
+        width: 30%;
+        height: 10%;
+        font-size: 6px;
+        margin-left: 0%;
+    }
+    .Datos-perfil #Est{
+        width: 35%;
+        font-size: 7px;
+        margin-left: 0%;
+    } 
+    .perfil-usuario .lista-perfil li{
+        margin-left: 0%;
+        font-size: 8px;
+    }
+
+    
+    .perfil-usuario .opciones-perfil button{
+        padding: 2px 5px;
+    }
+
+    .opciones-perfil button{
+font-size: 10px;
+    }
+    
+
+}
+
+
+@media screen and (max-width: 320px){
+
+
+    .lista-perfil input{
+    width: 20%;
+    font-size: 15px;
+    
+    }
+
+    .caja_cursos{
+        width: 315px;
+        height: 380px;
+        margin-top: 50px;
+    }
+
+
+    .detalles_curso p{
+        font-size: 13px;
+    }
+    
+    .detalles_curso h2{
+        font-size: 18px;
+    }
+   
+
+    .Datos-perfil li{
+       font-size: 12px;
+    }
+
+    
+    .perfil-usuario .avatar-perfil{
+        width: 20%;
+        margin-left: 15%;
+        box-shadow:  0 0 0px 0px rgb(255, 255, 255);
+    }
+
+    .perfil-usuario .Titulo-usuario{
+        font-size: 18px;
+    }
+
+    .Datos-perfil #fecha_naciemiento{
+        width: 40%;
+        height: 10%;
+        font-size: 5px;
+    }
+
+    .Datos-perfil #CorreoUsuario{
+        width: 20%;
+        height: 10%;
+        font-size: 8px;
+    }
+    .Datos-perfil #ContraUsuario{
+        width: 25%;
+        height: 10%;
+        font-size: 7px;
+    }
+
+    .Datos-perfil #NombreUsuario{
+        width: 50%;
+        height: 10%;
+        font-size: 8px;
+        margin-left: 0%;
+    }
+
+    .Datos-perfil #categ{
+        width: 30%;
+        height: 10%;
+        font-size: 6px;
+        margin-left: 0%;
+    }
+    .Datos-perfil #Est{
+        width: 35%;
+        font-size: 7px;
+        margin-left: 0%;
+    } 
+    .perfil-usuario .lista-perfil li{
+        margin-left: 0%;
+        font-size: 8px;
+    }
+
+    
+    .perfil-usuario .opciones-perfil button{
+        padding: 2px 5px;
+    }
+
+    .opciones-perfil button{
+font-size: 10px;
+    }
+    
+
+}
+   
+/*
+fecha_naciemiento
+NombreUsuario
+CorreoUsuario
+ContraUsuario
+categ
+    .caja_cursos{
+        height: 380px;
+        margin-top: 50px;
+    }
+
+    .detalles_curso p{
+        font-size: 13px;
+    }
+    
+    .detalles_curso h2{
+        font-size: 18px;
+    }
+   
+    .perfil-usuario .Datos-perfil{
+        padding: 1% 0%;
+        margin-left: 35%;
+    }
+
+    .Datos-perfil #NombreUsuario{
+        width: 70%;
+        margin-left: 0%;
+    }
+*/
 
 
 
 
+/*
+@media screen and (max-width: 1192px){
+    
+    .lista-perfil input{
+    width: 20%;
+    font-size: 15px;
+    
+    }
+    
+    select.combo{
+    margin-left: 5%;
+    }
+
+    .perfil-usuario .opciones-perfil button{
+        padding: 2px 5px;
+    }
+
+    .perfil-usuario .avatar-perfil{
+        width: 20%;
+        margin-right: 100%;
+        
+    }
+
+    .opciones-perfil button{
+        font-size: 10px;
+    }
+
+    .lista-perfil li{
+        font-size: 10px;
+    }
 
 
+}
+
+*/
