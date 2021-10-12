@@ -1,0 +1,1367 @@
+body{
+    font-family: 'Ubuntu Condensed', sans-serif;}
+
+h1{
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+p{
+    font-size: 20px;
+    color: #999999;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.BtnLogin ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.BtnLogin ul li {
+   display: inline-block;
+}
+.BtnLogin ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 10px;
+ }
+
+ .log a{
+    text-decoration: none;
+ }
+
+ .btn-outline-success{  
+color:black;
+border-style: none;
+ }
+
+
+.topmargin_xs{margin-top: 15px;}
+.topmargin_sm{margin-top: 30px;}
+.topmargin_lg{margin-top: 60px;}
+
+.btn_CrearCuenta{
+font-size: 14px;
+padding:15px 26px ;
+min-width: 160px;
+border-radius: 2px;
+display: inline-block;
+}
+
+.btn_light{
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border: 2px solid #ffffff;
+}
+
+.navbar{
+background-color:#ffffff;
+box-shadow: 0 2px 4px rgba(0, 0, 0, .05);
+min-height: 100px;
+}
+
+.Cursosdropdown{
+    color: #1a1a1a;
+}
+.Cursosdropdown:hover{
+    color: #1a1a1a;
+}
+
+.botones-loguearse{
+    color: #1a1a1a;
+}
+
+.logo{
+    min-width: 160px;
+    max-width: 180px;
+}
+
+.BtnLogin a p {
+    color:black;
+    
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ 
+.form-register{
+    width: 95%;
+    max-width: 1200px;
+    margin: auto;
+    background: #702088bd;
+    border-radius: 90px;
+} 
+
+.perfil-usuario .avatar-perfil{
+    display: block;
+    width: 19%;
+    height: 20%;
+    background-color: black;
+    margin-top: 3%;
+    margin-left: 20%;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 8px solid white;
+    box-shadow:  0 0 12px 2px rgb(85, 85, 85);
+}
+
+.perfil-usuario .Datos-perfil{
+    margin-top: -18%;
+    margin-left: 40%;
+    display: block;
+    background-color: rgba(222, 124, 241, 0.473);
+    width: calc(100% -230px - 8rem);
+    color: black;
+    text-shadow: 0 0 5 px rgb(73, 73, 73);
+    padding-bottom: 1rem;
+    border-radius: 80px;
+}
+
+.perfil-usuario .Titulo-usuario{
+
+    font-size: 3rem;
+    white-space: nowrap;
+    margin-bottom: 1rem;
+}
+
+.perfil-usuario .lista-perfil{
+    list-style: none;
+    margin-left: -9%;
+}
+.perfil-usuario .lista-perfil li{
+    display: inline-block;
+    padding: 20px;
+    margin: -15px;
+    margin-top: -10%;
+    margin-left: 2.5%;
+}
+.perfil-usuario .opciones-perfil{
+    display: block;
+    margin-left: 40%;
+}
+
+.perfil-usuario .opciones-perfil button{
+    border: 0;
+    padding: 8px 20px;
+    border-radius: 8px;
+    background-color: rgb(90, 90, 90);
+    color: white;
+    cursor: pointer;
+    font-family: 'Itim', cursive;
+
+}
+
+.perfil-usuario .Menu-perfil ul{
+    font-family: 'Itim', cursive;
+font-size: 20px;
+    color: black;
+display: flex;
+list-style: none;
+margin-top: 10%;
+    margin-left: 40%;
+}
+
+.perfil-usuario .Menu-perfil ul li{
+    margin-right: 1.5rem;
+}
+
+.perfil-usuario .Menu-perfil a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 8px 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition:  all ease-in 100ms;
+}
+
+.perfil-usuario .Menu-perfil a:hover{
+    background-color: #DFCB2B;
+    color: black;
+}
+
+
+select.combo{
+    /* padding: 9px 10px 10px 10px;
+    width: 15%; */
+    /* margin-top: 1rem; */
+    margin-left: 50px;
+    left: 64%;
+    background-color: rgb(233, 173, 235);
+    border-radius: 25px;
+    border: 3px solid #6c5a6e;
+    font-size: 13px;
+
+}
+
+.lista-perfil .Nombre-usuario{
+    margin-left: 35px;
+    width: 300px;
+    background: #e1d8e7be;
+    outline: none;
+    font-size: 15px;
+    border-radius: 25px;
+    border: 3px solid #ffffff;  
+}
+
+.lista-perfil input{
+    background: #e1d8e7be;
+    outline: none;
+    font-size: 15px;
+    border-radius: 25px;
+    border: 3px solid #af80cf;  
+}
+
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.contenedor_recuadros{
+    width: 100%;
+    height: 60vh;
+    background-color: #bd45db50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja_cursos{
+    width: 350px;
+    height: 410px;
+    background-color:#999999;
+    border-radius: 10px;
+    box-shadow: 2px 10px 12px rgba(73, 25, 82, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 20px 10px;
+}
+
+.img_curso_cuadro{
+height: 350px;
+max-height: 100%;
+max-width: 100%;
+}
+
+.detalles_curso{
+display: flex;
+flex-direction: column;
+align-items: center;
+width:  300px;
+}
+
+.detalles_curso p{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.detalles_curso h2{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.caja_cursos:hover{
+    background-color: #1a1a1a;
+    transform-style: preserve-3d;
+    transform: scale(1.02);
+    transition: all ease 0.3s;
+}
+
+
+
+.content_lado_ingresos h2{
+margin-left: 38%;
+font-size: 50px;
+}
+
+.contenido_total{
+align-content: center;
+text-align: center;
+background-color: rgb(70, 8, 70);
+width: 600px;
+border-radius: 50px;
+margin-left: 30%;
+
+}
+
+.contenido_total h2{
+color: white;
+}
+
+
+#tabla_container{
+    margin: 150px auto;
+    width: 80%;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+table{
+    background-color: white;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td{
+    padding: 20px;
+}
+thead{
+    background-color: #4f2463a4;
+    border-bottom: solid 5px #0F362D;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+tr:hover td{
+background-color: #963676;
+color: white;
+}
+
+
+#Creacion_curso .content_lado{
+    font-size: 50px;
+    text-align: left;
+    margin: 0 auto;
+    width: 90%;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    }
+
+.container_crearcurso{
+    font-size: 20px;
+    font-family: 'Truculenta', sans-serif;
+    background-color: #eee;
+    border: 1px solid #DDD;
+    width: 80%;
+    padding: 10px;
+    color: black;
+    border-radius: 15px;
+    margin: 0 auto; 
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 50px;
+}
+
+
+.container_crearcurso .curso_Descrip{
+    margin-top: 1rem;
+    padding: 1% 60% 7% 10%;
+    background: rgb(183, 161, 241);
+    outline: none;
+    font-size: 20px;
+    border-radius: 25px;
+    border: 3px solid #4e3648;
+    transition: all .5s;   
+}
+.container_crearcurso .curso_Nombre , .curso_catego , .curso_precio {
+background-color: rgb(183, 161, 241);
+margin-left: 20px;
+border-radius: 5px;
+border-color: #4e3648;
+}
+
+
+.container_crearcurso .botCrear{
+
+   width: 90%;
+   margin-top: 1rem;
+   margin-left: 90%;
+   font-size: 20px;
+   background-color: rgb(158, 135, 222);
+   border-radius: 25px;
+   border: 3px solid #553758;
+   }
+
+   .container_crearcurso .fotoCurso{
+    width: 10%;
+    margin-top: 45px;
+    margin-left: 5%;
+   }
+
+   .container_crearcurso .input-foto{
+    margin-top: 50px;
+    margin-left: 7%;
+   }
+
+   
+   .alert{
+    width: 130px;   
+    padding: 1px 0px 0px 5px;
+    /* max-height: 5px;
+    max-width: 190px; */
+    background: #f8d7da;
+    color: #721c24;
+    margin-bottom: 2px;
+    margin-left: 90px;
+    border: 5px solid #f5c6cb; 
+    font-size: 10px;
+}
+
+
+@media screen and (max-width: 1036px){
+
+
+
+    .perfil-usuario .Titulo-usuario{
+        font-size: 35px;
+    }
+    
+    .perfil-usuario .opciones-perfil button{
+        padding: 6px 15px;
+    }
+
+    .perfil-usuario .avatar-perfil{
+        width: 23%;
+        margin-left: 15%;
+    }
+    .caja_cursos{
+        height: 380px;
+        margin-top: 50px;
+    }
+
+    
+    .detalles_curso p{
+        font-size: 15px;
+    }
+    
+    .detalles_curso h2{
+        font-size: 20px;
+    }
+   
+    #tabla_container {
+        width: 100%;
+    }
+
+    .content_lado_ingresos h2{
+        text-align:justify;
+    }
+
+    .contenido_total{
+        width: 50%;
+    }
+    .container_crearcurso .curso_Nombre , .curso_catego , .curso_precio {
+        width: 30%;
+       }
+
+       
+.container_crearcurso .curso_Descrip{
+    padding: 1% 55% 7% 10%;}
+
+
+}
+
+
+@media screen and (max-width: 884px){
+
+
+
+    .perfil-usuario .Titulo-usuario{
+        font-size: 30px;
+    }
+    
+    .perfil-usuario .opciones-perfil button{
+        padding: 5px 12px;
+    }
+
+    .perfil-usuario .avatar-perfil{
+        width: 23%;
+        margin-left: 15%;
+    }
+    .caja_cursos{
+        height: 380px;
+        margin-top: 50px;
+    }
+
+    
+    .detalles_curso p{
+        font-size: 15px;
+    }
+    
+    .detalles_curso h2{
+        font-size: 20px;
+    }
+   
+    #tabla_container {
+        width: 100%;
+    }
+
+    .content_lado_ingresos h2{
+        text-align:justify;
+    }
+
+    .contenido_total{
+        width: 50%;
+    }
+    
+    #Creacion_curso .content_lado{
+     font-size: 30px;
+    }
+
+    .container_crearcurso{
+width: 90%;
+height: 100%;
+    }
+    .container_crearcurso .curso_Nombre , .curso_catego , .curso_precio {
+     width: 30%;
+    }
+}
+
+
+@media screen and (max-width: 801px){
+
+
+
+    .perfil-usuario .Titulo-usuario{
+        font-size: 27px;
+    }
+    
+    .perfil-usuario .opciones-perfil button{
+        padding: 4px 10px;
+    }
+
+    .perfil-usuario .avatar-perfil{
+        width: 23%;
+        margin-left: 15%;
+    }
+    .caja_cursos{
+        height: 380px;
+        margin-top: 50px;
+    }
+
+    
+    .detalles_curso p{
+        font-size: 15px;
+    }
+    
+    .detalles_curso h2{
+        font-size: 20px;
+    }
+   
+    #tabla_container {
+        width: 100%;
+    }
+
+    .content_lado_ingresos h2{
+        text-align:justify;
+        font-size: 40px;
+    }
+
+    .contenido_total{
+        width: 50%;
+    }
+    
+    #Creacion_curso .content_lado{
+     font-size: 30px;
+    }
+
+    .container_crearcurso{
+width: 90%;
+height: 100%;
+    }
+    .container_crearcurso .curso_Nombre , .curso_catego , .curso_precio {
+     width: 30%;
+    }
+
+    
+.container_crearcurso .curso_Descrip{
+    padding: 1% 53% 7% 10%;}
+
+}
+
+
+@media screen and (max-width: 701px){
+
+
+
+    .perfil-usuario .Titulo-usuario{
+        font-size: 25px;
+    }
+    
+    .perfil-usuario .opciones-perfil button{
+        padding: 4px 8px;
+    }
+
+    .perfil-usuario .avatar-perfil{
+        width: 20%;
+        margin-left: 13%;
+    }
+
+    .caja_cursos{
+        height: 380px;
+        margin-top: 50px;
+    }
+
+    
+    .detalles_curso p{
+        font-size: 15px;
+    }
+    
+    .detalles_curso h2{
+        font-size: 20px;
+    }
+   
+    #tabla_container {
+        width: 100%;
+    }
+
+    .content_lado_ingresos h2{
+        text-align:justify;
+        font-size: 40px;
+    }
+
+    .contenido_total{
+        width: 50%;
+    }
+    
+    #Creacion_curso .content_lado{
+     font-size: 30px;
+    }
+
+    .container_crearcurso{
+width: 90%;
+height: 100%;
+    }
+    .container_crearcurso .curso_Nombre , .curso_catego , .curso_precio {
+     width: 30%;
+    }
+
+    
+.container_crearcurso .curso_Descrip{
+    padding: 1% 48% 7% 10%;}
+
+}
+
+
+@media screen and (max-width: 670px){
+
+
+
+    .perfil-usuario .Titulo-usuario{
+        font-size: 25px;
+    }
+    
+    .perfil-usuario .opciones-perfil button{
+        padding: 4px 8px;
+    }
+
+    .perfil-usuario .avatar-perfil{
+        width: 20%;
+        margin-left: 13%;
+    }
+
+    .caja_cursos{
+        height: 380px;
+        margin-top: 50px;
+    }
+
+    
+    .detalles_curso p{
+        font-size: 15px;
+    }
+    
+    .detalles_curso h2{
+        font-size: 20px;
+    }
+   
+    #tabla_container {
+        width: 100%;
+    }
+
+    .content_lado_ingresos h2{
+        text-align:justify;
+        font-size: 40px;
+    }
+
+    .contenido_total{
+        width: 50%;
+    }
+    
+    #Creacion_curso .content_lado{
+     font-size: 30px;
+    }
+
+    .container_crearcurso{
+width: 90%;
+height: 100%;
+    }
+    .container_crearcurso .curso_Nombre , .curso_catego , .curso_precio {
+     width: 26%;
+     font-size: 15px;
+    }
+
+    
+.container_crearcurso .curso_Descrip{
+    padding: 1% 45% 7% 10%;}
+
+
+    
+.container_crearcurso .botCrear{
+    width: 90px;
+    padding: 0% 1%;
+    margin-left: 80%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 590px){
+
+
+
+    .perfil-usuario .Titulo-usuario{
+        font-size: 22px;
+    }
+    
+    .perfil-usuario .opciones-perfil button{
+        padding: 4px 8px;
+    }
+
+    .perfil-usuario .avatar-perfil{
+        width: 20%;
+        margin-left: 13%;
+    }
+
+    .caja_cursos{
+        height: 380px;
+        margin-top: 50px;
+    }
+
+    
+    .detalles_curso p{
+        font-size: 15px;
+    }
+    
+    .detalles_curso h2{
+        font-size: 20px;
+    }
+   
+    #tabla_container {
+        width: 100%;
+    }
+
+    .content_lado_ingresos h2{
+        text-align:justify;
+        margin-left: 36%;
+        font-size: 27px;
+    }
+
+    .contenido_total{
+        width: 45%;
+    }
+    
+    #Creacion_curso .content_lado{
+     font-size: 23px;
+    }
+
+    .container_crearcurso{
+width: 90%;
+height: 100%;
+    }
+    .container_crearcurso .curso_Nombre , .curso_catego , .curso_precio {
+     width: 26%;
+     font-size: 15px;
+    }
+
+    
+.container_crearcurso .curso_Descrip{
+    padding: 1% 40% 7% 10%;}
+
+
+    
+.container_crearcurso .botCrear{
+    font-size: 15px;
+    width: 90px;
+    padding: 0% 1%;
+    margin-left: 80%;
+    }
+
+    .perfil-usuario .Datos-perfil{
+        padding: 1% 0%;
+        margin-left: 35%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 540px){
+
+
+
+    .perfil-usuario .Titulo-usuario{
+        font-size: 20px;
+    }
+    
+    .perfil-usuario .opciones-perfil button{
+        padding: 2px 5px;
+    }
+
+    .perfil-usuario .avatar-perfil{
+        width: 20%;
+        margin-left: 13%;
+    }
+
+    .caja_cursos{
+        height: 380px;
+        margin-top: 50px;
+    }
+
+    
+    .detalles_curso p{
+        font-size: 15px;
+    }
+    
+    .detalles_curso h2{
+        font-size: 20px;
+    }
+   
+    #tabla_container {
+        width: 100%;
+    }
+
+    .content_lado_ingresos h2{
+        text-align:justify;
+        margin-left: 36%;
+        font-size: 27px;
+    }
+
+    .contenido_total{
+        width: 45%;
+    }
+    
+    #Creacion_curso .content_lado{
+     font-size: 23px;
+    }
+
+    .container_crearcurso{
+        font-size: 15px;
+width: 90%;
+height: 100%;
+    }
+    .container_crearcurso .curso_Nombre , .curso_catego , .curso_precio {
+     width: 26%;
+     font-size: 12px;
+    }
+
+    
+.container_crearcurso .curso_Descrip{
+    padding: 1% 35% 7% 10%;}
+
+
+    
+.container_crearcurso .botCrear{
+    font-size: 15px;
+    width: 90px;
+    padding: 0% 1%;
+    margin-left: 80%;
+    }
+
+    .perfil-usuario .Datos-perfil{
+        padding: 1% 0%;
+        margin-left: 35%;
+    }
+
+    .Datos-perfil #NombreUsuario{
+        width: 80%;
+    }
+
+    p.Texto_Foto {
+        font-size: 15px;
+    }
+    #FotoCurso{
+        font-size: 15px;
+    }
+
+}
+
+
+@media screen and (max-width: 478px){
+
+    .perfil-usuario .Titulo-usuario{
+        font-size: 17px;
+    }
+    
+    select.combo{
+   
+    margin-left: 5%;
+}
+
+
+    .perfil-usuario .opciones-perfil button{
+        padding: 2px 5px;
+    }
+
+    .perfil-usuario .avatar-perfil{
+        width: 20%;
+        margin-left: 13%;
+    }
+
+    .caja_cursos{
+        height: 380px;
+        margin-top: 50px;
+    }
+
+    
+    .detalles_curso p{
+        font-size: 15px;
+    }
+    
+    .detalles_curso h2{
+        font-size: 20px;
+    }
+   
+    #tabla_container {
+        width: 100%;
+    }
+
+    .content_lado_ingresos h2{
+        text-align:justify;
+        margin-left: 32%;
+        font-size: 27px;
+    }
+
+    .contenido_total{
+        width: 45%;
+    }
+    
+    #Creacion_curso .content_lado{
+     font-size: 23px;
+    }
+
+    .container_crearcurso{
+        font-size: 15px;
+width: 90%;
+height: 100%;
+    }
+    .container_crearcurso .curso_Nombre , .curso_catego , .curso_precio {
+     width: 26%;
+     font-size: 12px;
+    }
+
+    
+.container_crearcurso .curso_Descrip{
+    padding: 1% 40% 7% 10%;
+    font-size: 15px;
+}
+
+
+    
+.container_crearcurso .botCrear{
+    font-size: 15px;
+    width: 90px;
+    padding: 0% 1%;
+    margin-left: 80%;
+    }
+
+    .perfil-usuario .Datos-perfil{
+        padding: 1% 0%;
+        margin-left: 35%;
+    }
+
+    .Datos-perfil #NombreUsuario{
+        width: 80%;
+    }
+
+    p.Texto_Foto {
+        font-size: 15px;
+    }
+    #FotoCurso{
+        font-size: 15px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 420px){
+
+
+    .perfil-usuario .Titulo-usuario{
+        font-size: 15px;
+    }
+    
+    select.combo{
+   
+    margin-left: 5%;
+}
+
+    .perfil-usuario .opciones-perfil button{
+        padding: 2px 5px;
+    }
+
+    .perfil-usuario .avatar-perfil{
+        width: 20%;
+        margin-left: 13%;
+    }
+
+    .caja_cursos{
+        height: 380px;
+        margin-top: 50px;
+    }
+
+    
+    .detalles_curso p{
+        font-size: 15px;
+    }
+    
+    .detalles_curso h2{
+        font-size: 20px;
+    }
+   
+    #tabla_container {
+        width: 100%;
+    }
+    table{
+        max-width: 100%;
+    }
+
+    
+th,td{
+    padding: 1% 1%;
+    font-size: 13px;
+}
+
+    .content_lado_ingresos h2{
+        text-align:justify;
+        margin-left: 32%;
+        font-size: 27px;
+    }
+
+    .contenido_total{
+        width: 45%;
+    }
+    
+    #Creacion_curso .content_lado{
+     font-size: 23px;
+    }
+
+    .container_crearcurso{
+        font-size: 15px;
+width: 90%;
+height: 100%;
+    }
+    .container_crearcurso .curso_Nombre , .curso_catego , .curso_precio {
+     width: 26%;
+     font-size: 10px;
+    }
+
+    
+.container_crearcurso .curso_Descrip{
+    padding: 1% 38% 7% 10%;
+    font-size: 15px;
+}
+
+
+    
+.container_crearcurso .botCrear{
+    font-size: 15px;
+    width: 90px;
+    padding: 0% 1%;
+    margin-left: 80%;
+    }
+
+    .perfil-usuario .Datos-perfil{
+        padding: 1% 0%;
+        margin-left: 35%;
+    }
+
+    .Datos-perfil #NombreUsuario{
+        width: 80%;
+    }
+
+    p.Texto_Foto {
+        font-size: 15px;
+    }
+    #FotoCurso{
+        font-size: 15px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 368px){
+
+
+    .perfil-usuario .Titulo-usuario{
+        font-size: 13px;
+    }
+    
+    select.combo{
+   
+    margin-left: 5%;
+}
+
+    .perfil-usuario .opciones-perfil button{
+        padding: 2px 5px;
+    }
+
+    .perfil-usuario .avatar-perfil{
+        width: 20%;
+        margin-left: 13%;
+        border: 0px;
+        box-shadow: 0px;
+    }
+
+    .caja_cursos{
+        height: 380px;
+        margin-top: 50px;
+    }
+
+    
+    .detalles_curso p{
+        font-size: 15px;
+    }
+    
+    .detalles_curso h2{
+        font-size: 20px;
+    }
+   
+    #tabla_container {
+        width: 100%;
+    }
+    table{
+        max-width: 100%;
+    }
+
+    
+th,td{
+    padding: 1% 1%;
+    font-size: 13px;
+}
+
+    .content_lado_ingresos h2{
+        text-align:justify;
+        margin-left: 32%;
+        font-size: 20px;
+    }
+
+    .contenido_total{
+        width: 45%;
+        font-size: 5px;
+    }
+    
+    #Creacion_curso .content_lado{
+     font-size: 23px;
+    }
+
+    .container_crearcurso{
+        font-size: 15px;
+width: 90%;
+height: 100%;
+    }
+    .container_crearcurso .curso_Nombre , .curso_catego , .curso_precio {
+     width: 26%;
+     font-size: 10px;
+    }
+
+    
+.container_crearcurso .curso_Descrip{
+    padding: 1% 35% 7% 10%;
+    font-size: 13px;
+}
+
+
+    
+.container_crearcurso .botCrear{
+    font-size: 12px;
+    width: 90px;
+    padding: 0% 1%;
+    margin-left: 80%;
+    }
+
+    .perfil-usuario .Datos-perfil{
+        padding: 1% 0%;
+        margin-left: 35%;
+    }
+
+    .Datos-perfil #NombreUsuario{
+        width: 70%;
+        margin-left: 0%;
+    }
+
+    p.Texto_Foto {
+        font-size: 12px;
+    }
+    #FotoCurso{
+        font-size: 12px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 300px){
+
+
+    .perfil-usuario .Titulo-usuario{
+        font-size: 10px;
+    }
+    
+    select.combo{
+   
+    margin-left: 5%;
+}
+
+    .perfil-usuario .opciones-perfil button{
+        padding: 2px 5px;
+    }
+
+    .perfil-usuario .avatar-perfil{
+        width: 20%;
+        margin-left: 13%;
+        border: 0px;
+        box-shadow: 0px;
+    }
+
+    .opciones-perfil button{
+font-size: 10px;
+    }
+
+    .caja_cursos{
+        height: 380px;
+        margin-top: 50px;
+    }
+
+    
+    .detalles_curso p{
+        font-size: 13px;
+    }
+    
+    .detalles_curso h2{
+        font-size: 18px;
+    }
+   
+    #tabla_container {
+        width: 100%;
+    }
+    table{
+        max-width: 100%;
+    }
+
+    
+    th,td{
+    padding: 1% 1%;
+    font-size: 13px;
+    }
+
+    .content_lado_ingresos h2{
+        text-align:justify;
+        margin-left: 30%;
+        font-size: 17px;
+    }
+
+    .contenido_total{
+        width: 45%;
+        font-size: 5px;
+    }
+
+    .contenido_total p{
+        font-size: 15px;
+    }
+
+    
+    .contenido_total h2{
+        font-size: 15px;
+    }
+    
+    #Creacion_curso .content_lado{
+     font-size: 23px;
+    }
+
+    .container_crearcurso{
+        font-size: 15px;
+width: 90%;
+height: 100%;
+    }
+    .container_crearcurso .curso_Nombre , .curso_catego , .curso_precio {
+     width: 25%;
+     font-size: 6px;
+    }
+
+    
+.container_crearcurso .curso_Descrip{
+    padding: 1% 30% 7% 10%;
+    font-size: 10px;
+}
+
+
+    
+.container_crearcurso .botCrear{
+    font-size: 12px;
+    width: 90px;
+    padding: 0% 1%;
+    margin-left: 80%;
+    }
+
+    .perfil-usuario .Datos-perfil{
+        padding: 1% 0%;
+        margin-left: 35%;
+    }
+
+    .Datos-perfil #NombreUsuario{
+        width: 70%;
+        margin-left: 0%;
+    }
+
+    p.Texto_Foto {
+        font-size: 12px;
+    }
+    #FotoCurso{
+        font-size: 12px;
+    }
+
+}
+
+
+
+
+
+
+

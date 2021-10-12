@@ -1,0 +1,659 @@
+body{
+    font-family: 'Ubuntu Condensed', sans-serif;}
+
+h1{
+    font-size: 75px;
+    font-weight: 100%;
+    line-height: 80px;
+}
+
+p{
+    font-size: 20px;
+    color: #999999;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.BtnLogin ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.BtnLogin ul li {
+   display: inline-block;
+}
+.BtnLogin ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 10px;
+ }
+
+ .log a{
+    text-decoration: none;
+ }
+
+ .btn-outline-success{  
+color:black;
+border-style: none;
+ }
+
+
+.topmargin_xs{margin-top: 15px;}
+.topmargin_sm{margin-top: 30px;}
+.topmargin_lg{margin-top: 60px;}
+
+.btn_CrearCuenta{
+font-size: 14px;
+padding:15px 26px ;
+min-width: 160px;
+border-radius: 2px;
+display: inline-block;
+}
+
+.btn_light{
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border: 2px solid #ffffff;
+}
+
+.navbar{
+background-color:#ffffff;
+box-shadow: 0 2px 4px rgba(0, 0, 0, .05);
+min-height: 100px;
+}
+
+.Cursosdropdown{
+    color: #1a1a1a;
+}
+.Cursosdropdown:hover{
+    color: #1a1a1a;
+}
+
+.botones-loguearse{
+    color: #1a1a1a;
+}
+
+.logo{
+    min-width: 160px;
+    max-width: 180px;
+}
+
+.BtnLogin a p {
+    color:black;
+    
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+.main-Mensajes .titulo_mens{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    color: black;
+    margin-bottom: 5px;
+    font-size: 30px;
+    margin-top: 30px;
+    }
+    
+    .container_main_mens{
+        font-size: 20px;
+        font-family: 'Truculenta', sans-serif;
+        background-color: #eee;
+        border: 1px solid #DDD;
+        width: 70%;
+        padding: 10px;
+        color: black;
+        border-radius: 15px;
+        margin: 0 auto; 
+        display: flex;
+        flex-flow: row wrap;
+    }
+    
+    .container_main_mens .info_mensaje{
+    width: 20%;
+    }
+    
+    .container_main_mens .Contenido_mensaje{
+    font-size: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    
+    .container_main_mens .Contenido_mensaje .Mensaje{
+    width: 90%;
+    text-align: justify;
+    }
+
+    .container_main_mens .Usuario_respuesta{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    }
+
+    
+    .Usuario_mensaje .imagen img{
+        display: flex;
+        background-color: black;
+        border-radius: 50%;
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+        border: 8px solid white;
+        box-shadow:  0 0 12px 2px rgb(85, 85, 85);
+        }
+    
+
+    .Mensajes .titulo_mensaje{
+        
+        font-size: 30px;
+        text-align: left;
+        margin: 0 auto;
+        width: 80%;
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        }
+    
+    .container_responder{
+        font-size: 20px;
+        font-family: 'Truculenta', sans-serif;
+        background-color: #eee;
+        border: 1px solid #DDD;
+        width: 70%;
+        padding: 10px;
+        color: black;
+        border-radius: 15px;
+        margin: 0 auto; 
+        display: flex;
+        flex-flow: row wrap;
+    }
+    
+    .container_responder .mensaje_curso{
+        margin-top: 1rem;
+        padding: 3% 60% 1% 3%;
+        background: rgb(208, 135, 222);
+        outline: none;
+        font-size: 20px;
+        border-radius: 25px;
+        border: #5b0f5e;
+    }
+    
+    .container_responder .botMens{
+    
+       padding: 1%;
+       width: 10%;
+       margin-top: 1rem;
+       margin-left: 80%;
+       font-size: 15px;
+       background-color: rgb(208, 135, 222);
+       border-radius: 25px;
+       border: 3px solid #5b0f5e;
+       }
+ 
+       #show-modal{
+           
+           background: #5b0f5e;
+           padding: 5px 5px;
+           color: white;
+           font-weight: 100%;
+           font-size: 1.5em;
+           border-radius: 15px;
+           text-decoration: none;
+           margin-left: 80%;
+       }
+
+       #show-modal:hover{
+           cursor: pointer;
+           background: #1a1a1a;
+       }
+
+
+       .ventana{
+           background: rgb(255, 255, 255);
+           width: 50%;
+           color: rgb(0, 0, 0);
+           font-size: 18px;
+           text-align: center;
+           padding: 33px;
+           min-height: 350px;
+           border-radius: 22px;
+           position: absolute;
+           left: 27%;
+           top: 80%;
+           display: none;
+           border: 8px solid #5b0f5e;
+
+               }
+
+       .close-modal{
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        color: rgb(0, 0, 0);
+        }
+       .ventana .mensaje_curso{ 
+
+        margin-top: 30%;
+        padding: 8px 250px 10px 80px;
+        background: rgb(208, 135, 222);
+        outline: none;
+        font-size: 20px;
+        border-radius: 15px;
+            }
+
+        .ventana .botMens{
+            padding: 10px;
+            width: 7%;
+            font-size: 20px;
+            background-color: rgb(208, 135, 222);
+            border-radius: 25px;
+            border: 3px solid #5b0f5e;
+        }
+
+        .ventana .Mensaje{
+            font-size: 20px;
+            font-family: 'Truculenta', sans-serif;
+            background-color: #eee;
+            border: 1px solid #DDD;
+            width: 100%;
+            padding: 10px;
+            color: black;
+            border-radius: 10px;
+            margin: 0 auto; 
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        
+        @media screen and (max-width: 1036px){
+
+
+            .Ventana-Modal #show-modal{
+                max-width: 10%;
+                margin-top: 10%;
+
+
+            }
+
+            .Ventana-Modal .mensaje_curso{
+             width: 80%;
+             font-size: 15px;
+             padding: 1% 1% 1% 1%;
+
+            }
+            .ventana .botMens{
+                width: 10%;
+               
+            }
+           
+
+        }
+
+        @media screen and (max-width: 950px){
+
+            .container_responder .mensaje_curso{
+                width: 90%;
+            }
+
+
+            .Ventana-Modal #show-modal{
+                max-width: 10%;
+                margin-top: 10%;
+            }
+
+            .Ventana-Modal .mensaje_curso{
+             width: 80%;
+             font-size: 15px;
+
+            }
+            .ventana .botMens{
+                width: 10%;
+               
+            }
+
+           .Ventana-Modal #show-modal{
+               font-size: 10px;
+           }
+
+        }
+        
+        
+        @media screen and (max-width: 730px){
+
+            .container_main_mens .info_mensaje{
+               width: 20%;
+            }
+
+            .container_main_mens .info_mensaje p{
+                 font-size: 15px;
+
+             }
+
+             .Contenido_mensaje .contenido_del_contenido p{
+                font-size: 15px;
+
+            }
+
+            .Usuario_mensaje p{ 
+                font-size: 15px;
+            }
+
+            .Usuario_mensaje .imagen img{ 
+              width: 10%;
+              height: 10%;
+              border: 0px;
+            }
+
+            .container_responder .botMens{
+                font-size: 10px;
+            }
+
+            .Ventana-Modal h2{
+            font-size: 20px;
+            }
+            .Ventana-Modal .mensaje_curso{
+               padding: 1% 1% 1% 1%;
+   
+               }
+               .ventana .botMens{
+                padding: 0% 0% 0% 0%;
+               }
+
+        }
+        
+
+        
+        @media screen and (max-width: 570px){
+
+
+            .Mensajes .titulo_mensaje{
+                font-size: 15px;
+            }
+
+            .main-Mensajes .titulo_mens{
+                font-size: 20px;
+
+            }
+            
+            .container_responder .mensaje_curso{
+                padding: 1% 1% 1% 1%;
+                font-size: 15px;
+
+            }
+
+            .container_main_mens .info_mensaje{
+               width: 20%;
+            }
+
+            .container_main_mens .info_mensaje p{
+                 font-size: 10px;
+
+             }
+
+             .Contenido_mensaje .contenido_del_contenido p{
+                font-size: 10px;
+
+            }
+
+            .Usuario_mensaje p{ 
+                font-size: 10px;
+            }
+
+            .Usuario_mensaje .imagen img{ 
+              width: 10%;
+              height: 10%;
+              border: 0px;
+            }
+
+            .container_responder .botMens{
+                font-size: 8px;
+            }
+
+            .Ventana-Modal h2{
+            font-size: 15px;
+            }
+
+            .ventana .Mensaje{
+                font-size: 10px;
+                }
+
+            .ventana .botMens{
+                padding: 0% 10% 0% 1%;
+                margin-top: 100%;
+            }
+
+        }
+    
+        @media screen and (max-width: 427px){
+            #show-modal{
+                padding: 1% 1% 1% 1%;
+
+            }
+
+            .container_responder .botMens{
+                font-size: 10px;
+                padding: 1% 1% 1% 1%;
+                width: 15%;
+                
+
+            }
+
+            .ventana{
+                min-height: 30%;
+                    }
+            .container_responder .botMens{
+                font-size: 8px;
+            }
+
+            .Ventana-Modal h2{
+            font-size: 12px;
+            }
+
+            .ventana .Mensaje{
+                font-size: 9px;
+                }
+
+            .ventana .botMens{
+                padding: 0% 10% 0% 1%;
+                font-size: 10px;
+                
+            }
+
+            .Ventana-Modal .mensaje_curso{
+                padding: 1% 1% 1% 1%;
+                width: 80%;
+                }
+        }
+
+
+        
+        @media screen and (max-width: 419px){
+           
+
+            .Ventana-Modal #show-modal{
+               margin-left: 70%;
+                font-size: 8px;
+
+
+            }
+
+            .container_responder .mensaje_curso{
+                padding: 1% 1% 1% 1%;
+                font-size: 12px;
+
+            }
+    
+
+        }
+
+
+        
+        @media screen and (max-width: 375px){
+           
+
+            .container_main_mens .info_mensaje p{
+                font-size: 8px;
+
+            }
+
+            .Contenido_mensaje .contenido_del_contenido p{
+               font-size: 8px;
+
+           }
+
+           .Usuario_mensaje p{ 
+               font-size: 8px;
+           }
+
+           .Ventana-Modal h2{
+            font-size: 10px;
+            }
+            .Ventana-Modal .mensaje_curso{
+               padding: 1% 1% 1% 1%;
+               width: 70%;
+               font-size: 9px;
+               }
+
+               .ventana .Mensaje{
+                font-size: 7px;
+                }
+                .ventana{
+                    min-height: 30%;
+                        }
+                        .container_responder .mensaje_curso{
+                            padding: 1% 1% 1% 1%;
+                            font-size: 10px;
+            
+                        }
+                
+
+        }
+
+        
+        @media screen and (max-width: 310px){
+           
+
+            .container_main_mens .info_mensaje p{
+                font-size: 6px;
+
+            }
+
+            .Contenido_mensaje .contenido_del_contenido p{
+               font-size: 6px;
+
+           }
+
+           .Usuario_mensaje p{ 
+               font-size: 6px;
+           }
+
+           .Ventana-Modal h2{
+            font-size: 6px;
+            }
+            .Ventana-Modal .mensaje_curso{
+               padding: 1% 1% 1% 1%;
+               width: 70%;
+               font-size: 6px;
+               }
+
+               .ventana .Mensaje{
+                font-size: 4px;
+                }
+
+                .ventana .botMens{
+                    padding: 0% 10% 0% 2%;
+                    font-size: 6px;
+                    
+                }
+
+                .ventana{
+                    min-height: 30%;
+                        }
+                        .container_responder .mensaje_curso{
+                            padding: 1% 1% 1% 1%;
+                            font-size: 8px;
+            
+                        }
+                
+                
+        }
+
+
+        
+        @media screen and (max-width: 269px){
+           
+
+            .container_main_mens .info_mensaje p{
+                font-size: 6px;
+
+            }
+
+            .Contenido_mensaje .contenido_del_contenido p{
+               font-size: 6px;
+
+           }
+
+           .Usuario_mensaje p{ 
+               font-size: 1px;
+           }
+
+           .Ventana-Modal h2{
+            font-size: 5px;
+            }
+            .Ventana-Modal .mensaje_curso{
+               padding: 1% 1% 1% 1%;
+               width: 60%;
+               font-size: 4px;
+               }
+
+               .ventana .Mensaje{
+                font-size: 4px;
+                }
+
+                .ventana .botMens{
+                    padding: 0% 10% 0% 2%;
+                    font-size: 6px;
+                    
+                }
+
+                .ventana{
+                    min-height: 30%;
+                        }
+
+                        .container_responder .botMens{
+                            font-size: 6px;
+                        }
+
+                        .container_responder .mensaje_curso{
+                            padding: 1% 1% 1% 1%;
+                            font-size: 8px;
+            
+                        }
+                
+        }
+
+
+
