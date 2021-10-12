@@ -18,6 +18,11 @@ a:hover{
     text-decoration: none;
 }
 
+.player{
+    position: fixed;
+    top: 123px;
+}
+
 .BtnLogin ul{
     padding: 0;
     margin: 0;

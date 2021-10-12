@@ -1,271 +1,389 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="shortcut icon" href="/Elementos/icono.png"  type="image/x-icon">
-    <link href="/css/Principal_style.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/lightslider.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/89688bb0b5.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <!-- <link href="https://unpkg.com/ionicons@4.5.5/dist/css.ionicons.min.css" rel="stylesheet"> -->
-    
-    
-    <!-- Jquery-->
-    <script type="text/javascript" src="/js/JQuery3.3.1.js"></script>
-    <script type="text/javascript" src="/js/lightslider.js"></script>
-    <script type="text/javascript" src="/js/script.js"></script>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="shortcut icon" href="/Elementos/icono.png" type="image/x-icon">
+  <link href="/css/Principal_style.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/lightslider.css">
 
-    <title>AllCourses Principal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/89688bb0b5.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <!-- <link href="https://unpkg.com/ionicons@4.5.5/dist/css.ionicons.min.css" rel="stylesheet"> -->
 
-  </head>
-  <body>
 
-    <nav class="navbar navbar-expand-lg ">
-      <div class="container">
-        <a class="navbar-brand" href="#"><img src="/Elementos/AllCourses2.png" class="logo" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            
-            <li class="Cursosdropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="CursosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Cursos
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Categorias</a></li>
-                <li><a class="dropdown-item" href="#">Cursos Nuevos</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Certificados</a></li>
-              </ul>
-            </li>
-            <!-- <li class="nav-item">
+  <!-- Jquery-->
+  <script type="text/javascript" src="/js/JQuery3.3.1.js"></script>
+  <script type="text/javascript" src="/js/lightslider.js"></script>
+  <script type="text/javascript" src="/js/script.js"></script>
+  <script type="text/javascript"
+    src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.1/handlebars.min.js"></script>
+
+
+  <title>AllCourses Principal</title>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="/Elementos/AllCourses2.png" class="logo" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="Cursosdropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="CursosDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Cursos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Categorias</a></li>
+              <li><a class="dropdown-item" href="#">Cursos Nuevos</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Certificados</a></li>
+            </ul>
+          </li>
+          <!-- <li class="nav-item">
               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
             </li> -->
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-            <button class="btn btn-outline-success" type=""><i class="fas fa-search"></i></button>
-            <button class="btn btn-outline-success" type=""><i class="fas fa-shopping-cart"></i></button>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type=""><i class="fas fa-search"></i></button>
+          <button class="btn btn-outline-success" type=""><i class="fas fa-shopping-cart"></i></button>
 
-            </li>
-          </form>
+          </li>
+        </form>
 
-          <!-- <form class="botones-loguearse">
+        <!-- <form class="botones-loguearse">
             <button class="btn btn-outline-success" id="ENTRAR" type="submit">ENTRAR</button>
             <button class="btn btn-outline-success" id="CREAR" type="submit">CREAR</button>
 
           </form> -->
-          <log class = "BtnLogin">
-            <ul> 
-            <li><a href="#"> 
-            <p>  ENTRAR </p> </a></li>
-            <li><a href="#"> 
-            <p>CREAR </p>
-            </a></li>
-            </ul>
-          </log>
+        <log class="BtnLogin">
+          <ul>
+            <li><a href="#">
+                <p> ENTRAR </p>
+              </a></li>
+            <li><a href="#">
+                <p>CREAR </p>
+              </a></li>
+          </ul>
+        </log>
 
-        </div>
-        </div>
-    </nav>
+      </div>
+    </div>
+  </nav>
 
-    <section id="image_princip">
-      <div class="container">
-        <div class="contet_center topmargin_lg">
+  <section id="image_princip">
+    <div class="container">
+      <div class="contet_center topmargin_lg">
         <h1>Crea, Explora y Aprende</h1><br>
         <p>Con los cursos de AllCourses descubre tu maximo potencial</p>
-        <a href="#" class="btn btn_light topmargin_sm">Explore now  <i class="fas fa-arrow-circle-right"></i>
-      </a>
-      
+        <a href="#" class="btn btn_light topmargin_sm">Explore now <i class="fas fa-arrow-circle-right"></i>
+        </a>
+
       </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <h1>Displaying User Data</h1>
+    <p>Log in with your Spotify account and this demo will display information about you fetched using the Spotify
+      Web API</p>
+    <button class="btn btn-primary" id="btn-login">Login</button>
+    <div id="result"></div>
+  </div>
+  <script id="result-template" type="text/x-handlebars-template">
+    <dl>
+      <img src="{{images.0.url}}">
+      <dt>User Name</dt>
+      <dd>{{id}}</dd>
+      <dt>Display Name</dt>
+      <dd>{{display_name}}</dd>
+      <dt>Country</dt>
+      <dd>{{country}}</dd>
+      <dt>Followers</dt>
+      <dd>{{followers.total}}</dd>
+      <dt>Profile</dt>
+      <dd><a href="{{external_urls.spotify}}" target="_blank">{{external_urls.spotify}}</a></dd>
+      <dt>Email</dt>
+      <dd>{{email}}</dd>
+      <dt>Product</dt>
+      <dd>{{product}}</dd>
+    </dl>
+</script>
+
+  <section id="cursos">
+    <div class="container-fluid">
+      <div class="content_lado">
+        <br><br><br>
+        <h2>MEJORES CALIFICADOS</h2>
       </div>
-    </section>
 
-    <section id="cursos">
-<div class="container-fluid">
-  <div class="content_lado">
-     <br><br><br><h2>MEJORES CALIFICADOS</h2>
-  </div>
+      <div class="row">
 
-<div class="row">
+        <body>
+          <div class="contenedor_recuadros">
+            <ul id="autoWidth" class="cs-hidden">
+              <!-- 1  ---------------------------------------- -->
+              <li class="item-a">
+                <div class="caja_cursos">
+                  <img src="/Elementos/curso2.jpg" class="img_curso_cuadro" alt="curso 1">
+                  <div class="detalles_curso">
+                    <h2>Ilustracion en Photoshop</h2>
+                    </a>
+                    <a href="#">
+                      <p>$299 MXN</p>
+                    </a>
+                  </div>
+                </div>
+              </li>
 
-<body>
-<div class="contenedor_recuadros">
-  <ul id="autoWidth" class="cs-hidden">
-    <!-- 1  ---------------------------------------- -->
-    <li class="item-a">   <div class="caja_cursos"> 
-      <img src="/Elementos/curso2.jpg" class="img_curso_cuadro" alt="curso 1">
-      <div class="detalles_curso">
-      <h2>Ilustracion en Photoshop</h2>
-      </a>
-      <a href="#">
-      <p>$299 MXN</p>
-      </a>
+              <!-- 2  ---------------------------------------- -->
+              <li class="item-a">
+                <div class="caja_cursos">
+                  <img src="/Elementos/curso1.jpg" class="img_curso_cuadro" alt="curso 1">
+                  <div class="detalles_curso">
+                    <h2>Ilustracion de acuarelas</h2>
+                    </a>
+                    <a href="#">
+                      <p>$199 MXN</p>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <!-- 3  ---------------------------------------- -->
+              <li class="item-a">
+                <div class="caja_cursos">
+                  <img src="/Elementos/curso7.jpg" class="img_curso_cuadro" alt="curso 1">
+                  <div class="detalles_curso">
+                    <h2>Introduccion a Volar</h2>
+                    </a>
+                    <a href="#">
+                      <p>$399 MXN</p>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <!-- 4  ---------------------------------------- -->
+              <li class="item-a">
+                <div class="caja_cursos">
+                  <img src="/Elementos/curso8.jpg" class="img_curso_cuadro" alt="curso 1">
+                  <div class="detalles_curso">
+                    <h2>Introcuccion a la informatica</h2>
+                    </a>
+                    <a href="#">
+                      <p>$249 MXN</p>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <!-- 5  ---------------------------------------- -->
+              <li class="item-a">
+                <div class="caja_cursos">
+                  <img src="/Elementos/curso9.jpg" class="img_curso_cuadro" alt="curso 1">
+                  <div class="detalles_curso">
+                    <h2>Stand Up Comedy al maximo</h2>
+                    </a>
+                    <a href="#">
+                      <p>$499 MXN</p>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <!--6  ---------------------------------------- -->
+              <li class="item-a">
+                <div class="caja_cursos">
+                  <img src="/Elementos/curso10.jpg" class="img_curso_cuadro" alt="curso 1">
+                  <div class="detalles_curso">
+                    <h2>Introduccion a la DeepWeb</h2>
+                    </a>
+                    <a href="#">
+                      <p>$349 MXN</p>
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </body>
+
+        <div class="content_lado">
+          <br><br><br>
+          <h2>MAS VENDIDOS</h2>
+        </div>
+
+        <div class="col-md-6">
+          <div class="curso_container">
+            <div class="curso_detalles">
+              <a href="#">
+                <h2>Joyeria con Ceramica</h2>
+              </a>
+              <a href="#">
+                <p>$299 MXN</p>
+              </a>
+            </div>
+            <img src="/Elementos/curso3.jpg" class="img-fluid" alt="curso 3">
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="curso_container">
+            <div class="curso_detalles">
+              <a href="#">
+                <h2>Animacion en After Efects</h2>
+              </a>
+              <a href="#">
+                <p>$349 MXN</p>
+              </a>
+            </div>
+            <img src="/Elementos/curso4.jpg" class="img-fluid" alt="curso 4">
+          </div>
+        </div>
+
+        <div class="content_lado">
+          <br><br><br>
+          <h2>CURSOS RECIENTES</h2>
+        </div>
+
+
+        <div class="col-md-6">
+          <div class="curso_container">
+            <div class="curso_detalles">
+              <a href="#">
+                <h2>Manejo de Redes Moviles</h2>
+              </a>
+              <a href="#">
+                <p>$399 MXN</p>
+              </a>
+            </div>
+            <img src="/Elementos/curso5.jpg" class="img-fluid" alt="curso 5">
+          </div>
+        </div>
+
+
+        <div class="col-md-6">
+          <div class="curso_container">
+            <div class="curso_detalles">
+              <a href="#">
+                <h2>Introduccion a Instagram</h2>
+              </a>
+              <a href="#">
+                <p>$499 MXN</p>
+              </a>
+            </div>
+            <img src="/Elementos/curso6.jpg" class="img-fluid" alt="curso 6">
+          </div>
+        </div>
+
+        <div class="contet_center topmargin_lg">
+          <a href="#" class="btn btn_light topmargin_sm">MAS CURSOS<i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+
+
+
+      </div>
     </div>
-    </div>     
-  </li>
 
-   <!-- 2  ---------------------------------------- -->
-   <li class="item-a">   <div class="caja_cursos"> 
-    <img src="/Elementos/curso1.jpg" class="img_curso_cuadro" alt="curso 1">
-    <div class="detalles_curso">
-    <h2>Ilustracion de acuarelas</h2>
-    </a>
-    <a href="#">
-    <p>$199 MXN</p>
-    </a>
-  </div>
-  </div>     
-</li>
+  </section>
 
- <!-- 3  ---------------------------------------- -->
- <li class="item-a">   <div class="caja_cursos"> 
-  <img src="/Elementos/curso7.jpg" class="img_curso_cuadro" alt="curso 1">
-  <div class="detalles_curso">
-  <h2>Introduccion a Volar</h2>
-  </a>
-  <a href="#">
-  <p>$399 MXN</p>
-  </a>
-</div>
-</div>     
-</li>
+  <!-- Optional JavaScript; choose one of the two! -->
 
-<!-- 4  ---------------------------------------- -->
-<li class="item-a">   <div class="caja_cursos"> 
-  <img src="/Elementos/curso8.jpg" class="img_curso_cuadro" alt="curso 1">
-  <div class="detalles_curso">
-  <h2>Introcuccion a la informatica</h2>
-  </a>
-  <a href="#">
-  <p>$249 MXN</p>
-  </a>
-</div>
-</div>     
-</li>
-
-<!-- 5  ---------------------------------------- -->
-<li class="item-a">   <div class="caja_cursos"> 
-  <img src="/Elementos/curso9.jpg" class="img_curso_cuadro" alt="curso 1">
-  <div class="detalles_curso">
-  <h2>Stand Up Comedy al maximo</h2>
-  </a>
-  <a href="#">
-  <p>$499 MXN</p>
-  </a>
-</div>
-</div>     
-</li>
-
-<!--6  ---------------------------------------- -->
-<li class="item-a">   <div class="caja_cursos"> 
-  <img src="/Elementos/curso10.jpg" class="img_curso_cuadro" alt="curso 1">
-  <div class="detalles_curso">
-  <h2>Introduccion a la DeepWeb</h2>
-  </a>
-  <a href="#">
-  <p>$349 MXN</p>
-  </a>
-</div>
-</div>     
-</li>
-</ul>
-</div>
-</body>
-
-<div class="content_lado">
-  <br><br><br><h2>MAS VENDIDOS</h2>
-</div>
-
-<div class="col-md-6">
-  <div class="curso_container">
-    <div class="curso_detalles">
-      <a href="#">
-      <h2>Joyeria con Ceramica</h2>
-      </a>
-      <a href="#">
-      <p>$299 MXN</p>
-      </a>
-    </div>
-    <img src="/Elementos/curso3.jpg" class="img-fluid" alt="curso 3">
-  </div>
-</div>
-
-<div class="col-md-6">
-  <div class="curso_container">
-    <div class="curso_detalles">
-      <a href="#">
-      <h2>Animacion en After Efects</h2>
-      </a>
-      <a href="#">
-      <p>$349 MXN</p>
-      </a>
-    </div>
-    <img src="/Elementos/curso4.jpg" class="img-fluid" alt="curso 4">
-  </div>
-</div>
-
-<div class="content_lado">
-  <br><br><br><h2>CURSOS RECIENTES</h2>
-</div>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
 
 
-<div class="col-md-6">
-  <div class="curso_container">
-    <div class="curso_detalles">
-      <a href="#">
-      <h2>Manejo de Redes Moviles</h2>
-      </a>
-      <a href="#">
-      <p>$399 MXN</p>
-      </a>
-    </div>
-    <img src="/Elementos/curso5.jpg" class="img-fluid" alt="curso 5">
-  </div>
-</div>
+
+  <script type="text/javascript">
+    (function () {
+
+      function login(callback) {
+        var CLIENT_ID = '6b284830006843e7ae7b170725715aed';
+        var REDIRECT_URI = 'http://jmperezperez.com/spotify-oauth-jsfiddle-proxy/';
+        function getLoginURL(scopes) {
+          return 'https://accounts.spotify.com/authorize?client_id=' + CLIENT_ID +
+            '&redirect_uri=' + encodeURIComponent(REDIRECT_URI) +
+            '&scope=' + encodeURIComponent(scopes.join(' ')) +
+            '&response_type=token';
+        }
+
+        var url = getLoginURL([
+          'user-read-email'
+        ]);
+
+        var width = 450,
+          height = 730,
+          left = (screen.width / 2) - (width / 2),
+          top = (screen.height / 2) - (height / 2);
+
+        window.addEventListener("message", function (event) {
+          var hash = JSON.parse(event.data);
+          if (hash.type == 'access_token') {
+            callback(hash.access_token);
+          }
+        }, false);
+
+        var w = window.open(url,
+          'Spotify',
+          'menubar=no,location=no,resizable=no,scrollbars=no,status=no, width=' + width + ', height=' + height + ', top=' + top + ', left=' + left
+        );
+
+      }
+
+      function getUserData(accessToken) {
+        return $.ajax({
+          url: 'https://api.spotify.com/v1/me',
+          headers: {
+            'Authorization': 'Bearer ' + accessToken
+          }
+        });
+      }
+
+      var templateSource = document.getElementById('result-template').innerHTML,
+        template = Handlebars.compile(templateSource),
+        resultsPlaceholder = document.getElementById('result'),
+        loginButton = document.getElementById('btn-login');
+
+      loginButton.addEventListener('click', function () {
+        login(function (accessToken) {
+          getUserData(accessToken)
+            .then(function (response) {
+              loginButton.style.display = 'none';
+              resultsPlaceholder.innerHTML = template(response);
+            });
+        });
+      });
+
+    })();
+  </script>
 
 
-<div class="col-md-6">
-  <div class="curso_container">
-    <div class="curso_detalles">
-      <a href="#">
-      <h2>Introduccion a Instagram</h2>
-      </a>
-      <a href="#">
-      <p>$499 MXN</p>
-      </a>
-    </div>
-    <img src="/Elementos/curso6.jpg" class="img-fluid" alt="curso 6">
-  </div>
-</div>
-
-<div class="contet_center topmargin_lg">
-<a href="#" class="btn btn_light topmargin_sm">MAS CURSOS<i class="fas fa-arrow-circle-right"></i></a>
-</div>
-
-</div>
-</div>
-
-    </section>
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
