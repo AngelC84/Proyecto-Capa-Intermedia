@@ -66,11 +66,12 @@
           </form> -->
           <log class = "BtnLogin">
             <ul> 
-            <li><a href="#"> 
-            <p>  ENTRAR </p> </a></li>
-            <li><a href="#"> 
-            <p>CREAR </p>
-            </a></li>
+              <li><a href="/html/Login.html">
+                <p> ENTRAR </p>
+              </a></li>
+            <li><a href="/html/Crear_cuenta.html">
+                <p>CREAR </p>
+              </a></li>
             </ul>
           </log>
 
@@ -114,8 +115,9 @@
             </ul>
         </div>
         <div class="opciones-perfil">
-            <button type="">Cambiar Foto</button>
-            <button type=""><i class="fas fa-wrench"></i></button>
+          <button type="submit">Cambiar Datos</button>
+          <button type="submit"><i class="fas fa-camera"></i></button>
+          <input id="FotoPerfil" type="file" name="Fotografia" placeholder="Foto para Perfil" class="input-foto" required>
         </div>
     </form>
  </section>
@@ -137,7 +139,7 @@
               <div class="detalles_curso">
               <h2>Ilustracion en Photoshop</h2>
               </a>
-              <a href="#">
+              <a href="/html/Info_Curso.html">
               <p>40% completo</p>
               <p>Inscripcion: 10/03/2021</p>
               <p>Ultima Visita: 10/07/2021</p>
@@ -152,7 +154,7 @@
             <div class="detalles_curso">
             <h2>Ilustracion de acuarelas</h2>
             </a>
-            <a href="#">
+            <a href="/html/Info_Curso.html">
               <p>90% completo</p>
               <p>Inscripcion: 10/02/2020</p>
               <p>Ultima Visita: 01/01/2021</p>
@@ -167,7 +169,7 @@
           <div class="detalles_curso">
           <h2>Introduccion a Volar</h2>
           </a>
-          <a href="#">
+          <a href="/html/Info_Curso.html">
             <p>80% completo</p>
             <p>Inscripcion: 25/12/2020</p>
             <p>Ultima Visita: 10/07/2021</p>
@@ -182,7 +184,7 @@
           <div class="detalles_curso">
           <h2>Introcuccion a la informatica</h2>
           </a>
-          <a href="#">
+          <a href="/html/Info_Curso.html">
             <p>40% completo</p>
             <p>Inscripcion: 10/03/2018</p>
             <p>Ultima Visita: 02/08/2021</p>
@@ -197,7 +199,7 @@
           <div class="detalles_curso">
           <h2>Stand Up Comedy al maximo</h2>
           </a>
-          <a href="#">
+          <a href="/html/Info_Curso.html">
             <p>60% completo</p>
             <p>Inscripcion: 05/03/2021</p>
             <p>Ultima Visita: 10/08/2021</p>
@@ -212,7 +214,7 @@
           <div class="detalles_curso">
           <h2>Introduccion a la DeepWeb</h2>
           </a>
-          <a href="#">
+          <a href="/html/Info_Curso.html">
             <p>10% completo</p>
             <p>Inscripcion: 10/03/2020</p>
             <p>Ultima Visita: 11/09/2020</p>
@@ -227,6 +229,24 @@
   </div>
  </div>
 </section>
+
+
+<script>
+  $('document').ready(function(){
+      function readImage(input){
+          if(input.files && input.files[0]){
+              var reader = new FileReader();
+              reader.onload = function(e) {
+                  $('#FotoPerfil').attr('src', e.target.result);
+              }
+              reader.readAsDataURL(input.files[0]);
+          }
+      }
+      $('#FotoPerfil').change(function(){
+          readImage(this);
+      });
+      });
+  </script>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

@@ -66,11 +66,12 @@
           </form> -->
           <log class = "BtnLogin">
             <ul> 
-            <li><a href="#"> 
-            <p>  ENTRAR </p> </a></li>
-            <li><a href="#"> 
-            <p>CREAR </p>
-            </a></li>
+              <li><a href="/html/Login.html">
+                <p> ENTRAR </p>
+              </a></li>
+            <li><a href="/html/Crear_cuenta.html">
+                <p>CREAR </p>
+              </a></li>
             </ul>
           </log>
 
@@ -103,8 +104,9 @@
             </ul>
         </div>
         <div class="opciones-perfil">
-            <button type="">Cambiar Foto</button>
-            <button type="submit"><i class="fas fa-wrench"></i></button>
+            <button type="submit">Cambiar Datos</button>
+            <button type="submit"><i class="fas fa-camera"></i></button>
+            <input id="FotoPerfil" type="file" name="Fotografia" placeholder="Foto para Perfil" class="input-foto" required>
         </div>
     </form>
  </section>
@@ -126,7 +128,7 @@
               <div class="detalles_curso">
               <h2>Ilustracion en Photoshop</h2>
               </a>
-              <a href="#">
+              <a href="/html/Info_Curso.html">
               <p>Alumnos Inscritos: 30</p>
               <p>Nivel Promedio: 80%</p>
               <p>Incgresos por Curso: </p><p>$6000 MX</p>
@@ -142,7 +144,7 @@
             <div class="detalles_curso">
             <h2>Ilustracion de acuarelas</h2>
             </a>
-            <a href="#">
+            <a href="/html/Info_Curso.html">
                 <p>Alumnos Inscritos: 50</p>
                 <p>Nivel Promedio: 40%</p>
                 <p>Incgresos por Curso: </p><p>$9000 MX</p>
@@ -157,7 +159,7 @@
           <div class="detalles_curso">
           <h2>Introduccion a Volar</h2>
           </a>
-          <a href="#">
+          <a href="/html/Info_Curso.html">
               <p>Alumnos Inscritos: 90</p>
               <p>Nivel Promedio: 10%</p>
               <p>Incgresos por Curso: </p><p>$12000 MX</p>
@@ -246,6 +248,25 @@ $('document').ready(function(){
     });
 </script>
 
+
+
+<script>
+  $('document').ready(function(){
+      function readImage(input){
+          if(input.files && input.files[0]){
+              var reader = new FileReader();
+              reader.onload = function(e) {
+                  $('#FotoPerfil').attr('src', e.target.result);
+              }
+              reader.readAsDataURL(input.files[0]);
+          }
+      }
+      $('#FotoPerfil').change(function(){
+          readImage(this);
+      });
+      });
+  </script>
+  
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
